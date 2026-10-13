@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/salthlpq/explore.saltairecollection.org/modules/SaltAmendments/
+ - /bin/cp -R * $DEPLOYPATH
